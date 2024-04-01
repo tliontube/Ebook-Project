@@ -15,7 +15,7 @@ const TABLE_ROWS = [
 
 export function Chart() {
   return (
-    <div className="flex justify-center items-center h-full">
+    <div className="flex justify-center items-center">
       <Card className="w-85">
         <table className="w-full min-w-max table-auto text-left">
           <thead>

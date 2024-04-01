@@ -16,14 +16,18 @@ const HomePage = () => {
 
     return (
         <Layout>
-            <FormSection/>
-            <div style={{ display: 'flex', justifyContent: 'center', padding: '20px' ,marginTop:"3.5rem"}}>
+           <div style={{display:'flex' ,width:'100%', justifyContent:'center',alignItems:'center', gap:'10em'}}>
+           <FormSection/>
+            <div>
+            <div style={{ display: 'flex', justifyContent: 'center', padding: '20px' ,marginTop:"10px"}}>
                 {/* Button with background color */}
                 <Button variant="contained" color="secondary" onClick={handleClick}>
                     Frequently Asked Questions!
                 </Button>
             </div>
             <Chart/>
+            </div>
+           </div>
         </Layout>
     );
 }
