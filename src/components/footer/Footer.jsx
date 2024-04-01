@@ -4,7 +4,7 @@ const Footer = () => {
   // get user from localStorage
   const user = JSON.parse(localStorage.getItem("users"));
   return (
-    <div>
+    <div style={{marginTop:"50px"}}>
       {/* footer  */}
       <footer className="text-gray-600 body-font bg-pink-600">
         {/* main  */}
