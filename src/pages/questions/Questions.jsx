@@ -6,6 +6,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Layout from "../../components/layout/Layout";
+import zIndex from "@mui/material/styles/zIndex";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -14,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(4),
     margin: "auto",
     backgroundColor: "#f0f0f0",
-    zIndex: "-1",
   },
   accordion: {
     backgroundColor: "D81B60", // Custom background color
@@ -37,7 +37,6 @@ const Questions = () => {
 
   return (
     <Layout>
-      <div>
       <div className={classes.main}>
         <Accordion
           expanded={expanded === "panel1"}
@@ -239,7 +238,6 @@ const Questions = () => {
             </Typography>
           </AccordionDetails>
         </Accordion>
-      </div>
       </div>
     </Layout>
   );

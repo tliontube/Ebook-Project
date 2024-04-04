@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar";
 /* eslint-disable react/prop-types */
 const Layout = ({ children }) => {
     return (
-        <div>
+        <div >
             <Navbar />
             <div className="main-content min-h-screen">
                 {children}
